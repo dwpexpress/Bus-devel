@@ -1,1 +1,49 @@
-create a general contarctor python app, cross platform. must include projects, clients, employess,trades maerials, the ability to enter dimension and calucalate materials required based on construction types and budgets. project tracking, timelines along with quoting, invoicing and export to quickbooks. email sending, gps trscking, etc
+application:
+  name: "General Contractor App"
+  description: "Cross-platform application for construction project management"
+  platforms: ["Windows", "macOS", "Linux", "iOS", "Android"]
+
+features:
+  project_management:
+    - project_tracking
+    - timelines
+    - milestones
+    - task_assignments
+    
+  client_management:
+    - contact_information
+    - project_history
+    - communication_logs
+    
+  employee_management:
+    - skills_and_trades
+    - availability
+    - time_tracking
+    - gps_tracking
+    
+  materials:
+    - inventory_tracking
+    - calculation_by_dimensions
+    - construction_type_templates
+    - cost_estimation
+    
+  financial:
+    - quoting
+    - invoicing
+    - budget_tracking
+    - quickbooks_export
+    
+  communication:
+    - email_notifications
+    - document_sharing
+    - status_updatee
+    - text tracking
+
+technical_requirements:
+  database: "SQL with cloud sync"
+  authentication: "User roles with permissions"
+  integrations:
+    - "QuickBooks"
+    - "Email services"
+    - "Calendar apps"
+    - "GPS/mapping services"
